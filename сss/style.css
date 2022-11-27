@@ -756,13 +756,8 @@ fill: var(--body-color--);
   font-size: 16px;
   line-height: calc(20/16);
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #2F303A;
-  padding-left: 16px;
-}
-.footer-input:hover,
-.footer-input:focus {
-  color: var(--accent-color);
+  color: #FFFFFF
+  
 }
 
 .footer-btn {
