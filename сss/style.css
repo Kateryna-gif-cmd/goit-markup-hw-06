@@ -756,8 +756,16 @@ fill: var(--body-color--);
   font-size: 16px;
   line-height: calc(20/16);
   letter-spacing: 0.03em;
-  color: #FFFFFF
+  color: #FFFFFF;
+  background-color: 
+  rgba(47, 48, 58, 1);
+  padding-left: 16px;
+  outline: none;
   
+}
+.footer-input:hover,
+.footer-input:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .footer-btn {
@@ -1135,8 +1143,8 @@ color: #757575;
 .checkbox-text span {
   width: 16px;
   height: 15px;
-  border: 1px solid 
-  rgba(33, 33, 33, 0.2);
+  border: 2px solid 
+  black;
   border-radius: 2px;
   /* margin-right: 8px; */
   display: flex;
