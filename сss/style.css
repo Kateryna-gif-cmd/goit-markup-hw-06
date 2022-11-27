@@ -742,7 +742,7 @@ fill: var(--body-color--);
   line-height: calc(16/14);
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
@@ -759,6 +759,10 @@ fill: var(--body-color--);
   color: rgba(255, 255, 255, 0.6);
   background-color: #2F303A;
   padding-left: 16px;
+}
+.footer-input:hover,
+.footer-input:focus {
+  color: var(--accent-color);
 }
 
 .footer-btn {
